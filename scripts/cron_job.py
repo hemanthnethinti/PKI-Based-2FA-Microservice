@@ -10,6 +10,11 @@ import os
 from datetime import datetime
 import traceback
 
+# Ensure we can import third-party packages installed in /srv/app/vendor
+VENDOR_PATH = "/srv/app/vendor"
+if VENDOR_PATH not in sys.path:
+    sys.path.insert(0, VENDOR_PATH)
+
 try:
     import pyotp
     import binascii
