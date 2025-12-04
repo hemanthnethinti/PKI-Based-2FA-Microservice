@@ -25,3 +25,5 @@ docker_cron/
 # OS junk
 .DS_Store
 Thumbs.db
+
+data/seed.txt
