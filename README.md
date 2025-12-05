@@ -1,16 +1,16 @@
-PKI-Based 2FA Microservice (Dockerized)
+## PKI-Based 2FA Microservice (Dockerized)
 
 This project implements a PKI-based Two-Factor Authentication (2FA) microservice using RSA 4096-bit key pairs, encrypted TOTP seed exchange, secure decryption, persistent storage, and cron-based TOTP generation inside Docker.
 
-The microservice provides:
+- The microservice provides:
 
- RSA seed decryption
+- RSA seed decryption
 
-TOTP code generation
+- TOTP code generation
 
-TOTP code verification
+- TOTP code verification
 
-Containerized runtime with cron automation
+- Containerized runtime with cron automation
 
 Persistent volumes for encrypted seed + cron logs
 
@@ -191,6 +191,6 @@ docker compose up --build
 
 ## 13. Author
 
-Hemanth Netinti
+Hemanth Netinti\
 PKI-Based 2FA Microservice — GPP Mandatory Task
 Built with FastAPI + Cryptography + Docker + Cron
