@@ -19,6 +19,8 @@ venv/
 .idea/
 
 # Docker local data volumes (optional if you don't want to push them)
+# === DOCKER RUNTIME DATA ===
+data/
 docker_data/
 docker_cron/
 
@@ -27,3 +29,10 @@ docker_cron/
 Thumbs.db
 
 data/seed.txt
+
+# === SECRETS / CRYPTO (NEVER COMMIT) ===
+student_private.pem
+encrypted_seed.txt
+signature.bin
+encrypted_signature.b64
+
